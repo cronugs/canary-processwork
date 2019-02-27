@@ -18,7 +18,7 @@
 /* ------------------------------------------------------ Background Image, Social, Name banner */
 
 .image-div {
-    background-image: url('../images/psycrow.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/psycrow.jpg');
     height: 90vh;
     width: 100vw;
     padding: 0;
@@ -151,7 +151,7 @@
 /* ---------------------------------------------------------- News Page */
 
 .news-image-div {
-    background-image: url('../images/psycrow.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
     height: 100px;
     width: 100vw;
     padding: 0;
