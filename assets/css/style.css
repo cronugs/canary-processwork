@@ -151,8 +151,8 @@
 /* ---------------------------------------------------------- News Page */
 
 .news-image-div {
-    background-image: url('../images/driftcrows.jpg');
-    height: 50vh;
+    background-image: url('../images/psycrow.jpg');
+    height: 100px;
     width: 100vw;
     padding: 0;
     background-attachment: fixed;
