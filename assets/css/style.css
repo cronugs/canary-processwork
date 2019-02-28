@@ -19,7 +19,7 @@
 
 .image-div {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/psycrow.jpg');
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     padding: 0;
     background-attachment: fixed;
@@ -37,6 +37,8 @@
 
 .social-row {
     background-color: #000;
+    position: fixed;
+    height: 7%;
     bottom: 0;
     width: 100vw;
     text-align: center;
@@ -93,7 +95,7 @@
     background-color: #000;
 }
 
-/* ------------------------------------------------------- Photo Section */
+/* ------------------------------------------------------- Photo Section 
 
 .photo-container {
     display: inline-block;
@@ -148,7 +150,27 @@
 }
 */
 
+/* ---------------------------------------------------------- Contact Form */
+
+.contact-form {
+    position: absolute;
+    top: 67%;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.form-control {
+    height: 51px;
+    background-color: transparent;
+}
+
+
+
+
 /* ---------------------------------------------------------- News Page */
+
 
 .news-image-div {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');

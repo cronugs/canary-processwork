@@ -12,42 +12,44 @@
 
 <body>
     <div class="container landing">
-        
+
         <div class="row crow-image">
-            
+
             <div class="col-xs-12 image-div"></div>
         </div>
 
         <div class="navbar navbar-default navbar-fixed-top navbar-masthead">
             <!--    <div class="col-xs-2 spacer"></div> -->
-            <div class="col-xs-3 news-link nav-link"><span>Home</span></div>
-            <div class="col-xs-3 gigs-link nav-link"><span>News</span></div>
-            <div class="col-xs-3 gigs-link nav-link"><span>Gigs</span></div>
-            <div class="col-xs-3 gigs-link nav-link"><span>Media</span></div>
+            <div class="col-xs-3 home-link nav-link"><span>Home</span></div>
+            <div class="col-xs-3 news-link nav-link"><span>News</span></div>
+            <div class="col-xs-3 media-link nav-link"><span>Media</span></div>
+            <div class="col-xs-3 contact-link nav-link"><span>Contact</span></div>
             <!--    <div class="col-xs-2 spacer"></div> -->
         </div>
 
-        <div class="row social-row">
-            <div class="col-xs-4 social-links">
-                <p class="social-header">
-                    <a target="_blank" href="https://twitter.com/JimiWindmills">
+        <div class="navbar navbar-default navbar-fixed-bottom navbar-masthead">
+            <div class="row social-row">
+                <div class="col-xs-4 social-links">
+                    <p class="social-header">
+                        <a target="_blank" href="https://twitter.com/JimiWindmills">
                         <i class="fa fa-twitter"></i>
                     </a>
-                </p>
-            </div>
-            <div class="col-xs-4 social-links">
-                <p class="social-header">
-                    <a target="_blank" href="https://www.youtube.com/playlist?list=PL70B9099387402B67">
+                    </p>
+                </div>
+                <div class="col-xs-4 social-links">
+                    <p class="social-header">
+                        <a target="_blank" href="https://www.youtube.com/playlist?list=PL70B9099387402B67">
                         <i class="fa fa-youtube"></i>
                     </a>
-                </p>
-            </div>
-            <div class="col-xs-4 social-links">
-                <p class="social-header">
-                    <a target="_blank" href="https://soundcloud.com/cronugs">
+                    </p>
+                </div>
+                <div class="col-xs-4 social-links">
+                    <p class="social-header">
+                        <a target="_blank" href="https://soundcloud.com/cronugs">
                          <i class="fa fa-soundcloud"></i>
                     </a>
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -56,15 +58,36 @@
             <div class="col-xs-12 bandname">
                 <p>Canary</p>
             </div>
+            <div class="row contact-form bg-transparent">
+                <div>
+                    <h3 class="contact-heading uppercase text-center bg-transparent">Got an upcoming event and need entertainment?</h3>
+                    <h5 class="uppercase text-center">Contact Canary for availability and hiring details</h5>
+                </div>
+            </div>
+            <div class="center-form bg-transparent">
+                <form>
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea name="projectsummary" rows="5" class="form-control" id="eventdescription" placeholder="Project Description" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
+            </div>
         </div>
+
+        <!--
 
         <div class="form-div">
             <p>For availability and bookings please contact us</p>
             <form action="#" method="post">
-                <input type="text" name="" />
-                <input type="submit" value="Submit" />
+                <input type="text" name="name" />
+                <button class="btn btn-default" type="submit">Send</button>
             </form>
-        </div>
+        </div> -->
+
+        <!-- <section class="container-fluid"> -->
+
+
+        <!-- </section> -->
 
     </div>
 
