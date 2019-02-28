@@ -15,6 +15,21 @@
     background-attachment: fixed;
 }
 
+.bg-transparent {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
+    background-color: transparent;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: visible;
+}
+
+.ta-centered {
+    text-align: center;
+}
+
 /* ------------------------------------------------------ Background Image, Social, Name banner */
 
 .image-div {
@@ -95,106 +110,16 @@
     background-color: #000;
 }
 
-/* ------------------------------------------------------- Photo Section 
-
-.photo-container {
-    display: inline-block;
-
-}
-
-.live-shots {
-    background-color: pink;
-    position: relative;
-    top: 97%;
-    min-height: 100px;
-
-
-}
-
-.shot-frame {
-    height: 250px;
-    width: 100vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 7px;
-    margin: 15px;
-    text-align: center;
-
-}
-
-.frame-one img {
-
-    width: 150px;
-}
-
-/*
-
-.frame-two {
-    background-image: url('../images/setphotos/canarylive2.jpg');
-}
-
-.frame-three {
-    background-image: url('../images/setphotos/canaryshot.jpg');
-}
-
-.frame-four {
-    background-image: url('../images/setphotos/font-cover-canary-live.jpg');
-}
-
-.frame-five {
-    background-image: url('../images/setphotos/img_6172.jpg');
-}
-
-.frame-six {
-    background-image: url('../images/setphotos/img_7523.jpg');
-}
-*/
-
 /* ---------------------------------------------------------- Contact Form */
 
-#fullname,
-#emailaddress,
-#eventdescription,
-.contact-heading,
-.contact-byline {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-    height: 50px;
-    /*width: 100vw;*/
-    padding: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    background-color: transparent;
+.contact-form {
     color: white;
 }
 
-.contact-heading,
-.contact-byline {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-
-    /*width: 100vw;*/
-    padding: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    background-color: transparent;
-    color: white;
-}
-
-.contact-form,
-#input-div {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-
-    padding: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    overflow: visible;
-    background-color: black;
-
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 /* ---------------------------------------------------------- News Page */
