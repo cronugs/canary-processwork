@@ -98,11 +98,12 @@
 
 .nav-link {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     /*font-style: italic;*/
     padding-top: 10px;
     color: pink;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .navbar {
@@ -153,6 +154,7 @@
 
 .news-item {
     color: black;
+    font-size: 18px;
 }
 
 .news-item-heading,
