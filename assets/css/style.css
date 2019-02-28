@@ -152,30 +152,40 @@
 
 /* ---------------------------------------------------------- Contact Form */
 
-.contact-form {
-    position: absolute;
-    top: 67%;
-}
-
-.bg-transparent {
-    background-color: transparent;
-}
-
-.form-control {
-    height: 51px;
-    background-color: transparent;
-}
-
-
-
-
-/* ---------------------------------------------------------- News Page */
-
-
-.news-image-div {
+#fullname,
+#emailaddress,
+#eventdescription,
+.contact-heading,
+.contact-byline {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-    height: 100px;
-    width: 100vw;
+    height: 50px;
+    /*width: 100vw;*/
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: transparent;
+    color: white;
+}
+
+.contact-heading,
+.contact-byline {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
+  
+    /*width: 100vw;*/
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-color: transparent;
+    color: white;
+}
+
+.contact-form, #input-div {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
+    
     padding: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -183,7 +193,10 @@
     background-size: cover;
     overflow: visible;
     background-color: black;
+    
 }
+
+/* ---------------------------------------------------------- News Page */
 
 .page-color {
     background-color: #452631;
