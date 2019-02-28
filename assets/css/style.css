@@ -19,7 +19,7 @@
 
 .image-div {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/psycrow.jpg');
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     padding: 0;
     background-attachment: fixed;
@@ -172,7 +172,7 @@
 .contact-heading,
 .contact-byline {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-  
+
     /*width: 100vw;*/
     padding: 0;
     background-attachment: fixed;
@@ -183,9 +183,10 @@
     color: white;
 }
 
-.contact-form, #input-div {
+.contact-form,
+#input-div {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/psycrow.jpg');
-    
+
     padding: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -193,7 +194,7 @@
     background-size: cover;
     overflow: visible;
     background-color: black;
-    
+
 }
 
 /* ---------------------------------------------------------- News Page */
